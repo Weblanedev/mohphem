@@ -1,6 +1,6 @@
 import instaIcon from '../assets/Icons/instagram.png'
 import fbIcon from '../assets/Icons/fbIcon.png'
-import utubeIcon from '../assets/Icons/youtube.png'
+import { Link } from 'react-router-dom';
 
 
 const socialStyles = "h-5 "
@@ -40,18 +40,26 @@ export const Footer = () => {
             </span>
 
             <div className='flex gap-7'>
-            <span className={privacyStyle}>Privacy Policy</span>
-            <span className={privacyStyle}>Terms of Use</span>
+              <Link to="/privacy">
+                <span className={privacyStyle}>Privacy Policy</span></Link>
+              <Link to="/contact">
+                <span className={privacyStyle}>Terms of Use</span>
+              </Link>
             </div>
-           
+
           </div>
 
           {/* social icons */}
           <div className='flex items-center gap-6'>
-            <img src={instaIcon} alt="icon" className={socialStyles} />
-            <img src={fbIcon} alt="icon" />
-            <img src={utubeIcon} alt="icon" className={socialStyles}/>
-          </div>
+            <Link to="https://www.instagram.com/">
+              <img src={instaIcon} alt="icon" className={socialStyles} />
+
+            </Link>
+            <Link to="https://www.facebook.com">
+
+              <img src={fbIcon} alt="icon" />
+            </Link>
+        </div>
         </div>
       </div>
     </div>
