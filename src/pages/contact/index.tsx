@@ -79,7 +79,7 @@ const Contact = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-orange-950">
             Contact Us
           </h1>
-          <p>Find the best way to get help and connect with COINTRIP TECHNOLOGY</p>
+          <p>Find the best way to get help and connect with Broadstack Platforms Limited.</p>
         </div>
       </section>
 
@@ -168,7 +168,7 @@ const Contact = () => {
                 Call Us
               </h4>
               <p className="text-orange-500 leading-[16px]">
-                +234 908-398-9079
+                +234-818-566-4805
               </p>
             </div>
           </div>
@@ -179,7 +179,7 @@ const Contact = () => {
                 Mail Us
               </h4>
               <p className="text-orange-500 leading-[16px]">
-              support@cointriptech.com
+              support@broadstack.com
               </p>
             </div>
           </div>

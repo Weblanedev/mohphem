@@ -15,7 +15,7 @@ export const Footer = () => {
           {/* brand name */}
           <div className=" sm:w-1/3 flex flex-col sm:flex-row gap-5 items-center">
             <div className="text-[24px] font-medium font-poppins">
-              leCadence<span className="text-gray-400">.</span>
+              BroadStack<span className="text-gray-400">.</span>
             </div>
             <hr className='w-5 sm:hidden opacity-40' />
             <span className='hidden sm:block opacity-40'>|</span>
@@ -36,7 +36,7 @@ export const Footer = () => {
         <div className="min-h-[56px] flex flex-col-reverse sm:flex-row justify-between items-center gap-8 sm:gap-0 py-6 sm:py-0 border-solid border-t-[1px] border-gray-400">
           <div className="flex flex-col-reverse items-center sm:flex-row gap-7">
             <span className="text-[12px] leading-5 text-gray-300 font-poppins opacity-80">
-              Copyright © 2023 3legant. All rights reserved
+              Copyright ©. All rights reserved
             </span>
 
             <div className='flex gap-7'>

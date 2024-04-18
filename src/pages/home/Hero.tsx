@@ -22,9 +22,6 @@ export const Hero = () => {
 
         <div className=" w-full sm:w-[450px]">
           <p className="text-body2Reg text-gray-400">
-            <span className="text-h7 font-bold text-gray-500">leCadence</span>{" "}
-            is a gift & decorations store based in HCMC, Vietnam. Est since
-            2019.
           </p>
         </div>
       </header>
