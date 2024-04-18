@@ -1,5 +1,4 @@
 import { CardCarrousel } from "./cards/CardCarrousel"
-import { ButtonDark } from "./Elements"
 import pdt1 from '../assets/products/product-2.png'
 import pdt2 from '../assets/products/product-7.png'
 import pdt3 from '../assets/products/product-8.png'

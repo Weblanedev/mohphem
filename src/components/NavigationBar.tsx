@@ -1,8 +1,5 @@
-import avatarIcon from "../assets/Icons/avatar-dark.png";
-import cartIcon from "../assets/Icons/shopping bag.png";
-import searchIcon from "../assets/Icons/search.png";
 import { Badge } from "./Badge";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import NotificationBar from "./NotificationBar";
 import { FC, useEffect, useState } from "react";
 import { CartSideBar } from "./cards/CartSideBar";
