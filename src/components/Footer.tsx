@@ -19,17 +19,17 @@ export const Footer = () => {
             </div>
             <hr className='w-5 sm:hidden opacity-40' />
             <span className='hidden sm:block opacity-40'>|</span>
-            <span className=" text-capR1 font-light opacity-80">Gifts & Decoration Store</span>
+            {/* <span className=" text-capR1 font-light opacity-80">Gifts & Decoration Store</span> */}
           </div>
 
           {/* navigation */}
-          <div className="flex flex-col items-center sm:flex-row gap-8 sm:gap-10 text-capR1 font-light opacity-80">
+          {/* <div className="flex flex-col items-center sm:flex-row gap-8 sm:gap-10 text-capR1 font-light opacity-80">
             <span>Home</span>
             <span>Shop</span>
             <span>Product</span>
             <span>Blog</span>
             <span>Contact Us</span>
-          </div>
+          </div> */}
         </div>
 
         {/* copyright */}

@@ -27,7 +27,7 @@ function Home() {
         <ProductCarrousel tag={<div>New <br/> Arrivals</div> }/>
         <Values/>
         <SaleBanner/>
-        <Blog/>
+        {/* <Blog/> */}
         <Newsletter/>
         <Footer/>
     </div>

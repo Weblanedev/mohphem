@@ -41,7 +41,7 @@ const NavigationBar: FC<IProp> = ({ open, cartBar }) => {
         </div>
 
         {/* cart sidebar */}
-        <div className="hidden sm:flex h-[450px] absolute top-[24rem] sm:top-[8rem] right-[35%] sm:right-0 items-center">
+        <div className="hidden h-[450px] absolute top-[24rem] sm:top-[8rem] right-[35%] sm:right-0 items-center">
           <button
             onClick={() => open()}
             className="h-fit left-0 flex sm:flex-col items-center gap-1 text-h7 bg-green px-5 py-2 rounded-3xl sm:rounded-none sm:p-4"
@@ -57,23 +57,23 @@ const NavigationBar: FC<IProp> = ({ open, cartBar }) => {
         </div>
 
         {/* menus */}
-        <div className="w-[324px] hidden sm:flex justify-between items-center">
+        <div className="w-[200px] hidden sm:flex justify-between items-center">
           <NavLink to="/">
             <span className={menuClass}>Home</span>
           </NavLink>
-          <NavLink to="/shop">
+          {/* <NavLink to="/shop">
             <span className={menuClass}>Shop</span>
           </NavLink>
           <NavLink to="/product">
             <span className={menuClass}>Product</span>
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/contact">
             <span className={menuClass}>Contact Us</span>
           </NavLink>
         </div>
 
         {/* icons */}
-        <div className="flex items-center gap-3">
+        {/* <div className="flex items-center gap-3">
           <img src={searchIcon} alt="icon" />
           <img src={avatarIcon} alt="icon" />
           <Link to='/cart'>
@@ -87,7 +87,7 @@ const NavigationBar: FC<IProp> = ({ open, cartBar }) => {
           </div>
           </Link>
          
-        </div>
+        </div> */}
       </nav>
     </div>
   );

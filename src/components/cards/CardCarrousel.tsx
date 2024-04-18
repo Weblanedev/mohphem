@@ -4,18 +4,18 @@ import wishIcon from "../../assets/Icons/wish-gray.png";
 import { useCartStore } from "../../store";
 import { useNavigate } from "react-router-dom";
 import { NewItem } from "../NewItem";
-
 interface Props {
   img: string;
   tag: string;
   price: string;
+  country: string;
   slashP?: number;
 }
 
 export const CardCarrousel: FC<Props> = ({
   img,
   tag,
-  price,
+  price,country
   // slashP,
 }): JSX.Element => {
   const [active, setActive] = useState(false);
@@ -39,6 +39,14 @@ export const CardCarrousel: FC<Props> = ({
     navigate('/product')
   };
 
+  const purchase = (title: any, price: any) => {
+    const product = {
+      name: title,
+      price,
+    }
+    localStorage.setItem("item", JSON.stringify(product))
+    navigate("/billing") 
+  }
 
   return (
     <div className="h-[433px] w-[262px] flex flex-col gap-2">
@@ -49,7 +57,6 @@ export const CardCarrousel: FC<Props> = ({
           className="h-[349px]"
           onMouseEnter={() => setActive(true)}
           onMouseLeave={() => setActive(false)}
-          onClick={() => handleNavigate()}
         />
 
         {/* hover contents */}
@@ -72,12 +79,12 @@ export const CardCarrousel: FC<Props> = ({
         <button
           onMouseEnter={handleHover}
           onMouseLeave={() => setActive(false)}
-          onClick={() => handleButtonClick(tag)}
+          onClick={() => purchase(tag, price)}
           className={`w-[230px] h-[46px] absolute bottom-4 right-4 ${
             active ? "flex" : "hidden"
           } justify-center items-center rounded-lg bg-gray-700 text-white text-btnSm `}
         >
-          Add to cart
+          Order from {country}
         </button>
       </div>
 

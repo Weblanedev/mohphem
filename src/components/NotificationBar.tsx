@@ -2,6 +2,7 @@ import ticketIcon from "../assets/Icons/ticket-percent-dark.png";
 import arrowRightIcon from "../assets/Icons/arrow-right-blue.png";
 import closeIcon from "../assets/Icons/close.png";
 import { useNotification } from "../store";
+import { Link } from "react-router-dom";
 
 
 const NotificationBar = () => {
@@ -20,12 +21,12 @@ const NotificationBar = () => {
         {/* text */}
         <div className="flex items-center gap-[8px]">
           <img src={ticketIcon} alt="icon" />
-          <div className="text-capS1">30% off storewide -- Limited time!</div>
+          <div className="text-capS1">30% off for Exports -- Limited time!</div>
         </div>
 
         {/* button */}
         <button className="hidden sm:flex justify-center items-center gap-[2px] text-blue text-btnXS border-solid border-b-[1px] border-blue">
-          <p>Shop Now</p>
+          <Link to="/contact">Export Now</Link>
           <img src={arrowRightIcon} alt="icon" />
         </button>
 

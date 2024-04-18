@@ -17,7 +17,7 @@ export const ProductCarrousel: FC<ICarrouselTagProp> = ({tag}) => {
       <div className="flex justify-between items-end pr-40">
       <div className="text-h4 font-poppins">{tag}</div> 
       <div className="hidden sm:block">
-      <ButtonDark text="More Products"  />
+      {/* <ButtonDark text="More Products"  /> */}
       </div>
       </div>
 
@@ -25,11 +25,11 @@ export const ProductCarrousel: FC<ICarrouselTagProp> = ({tag}) => {
       <div className="h-[433px] flex gap-5 overflow-hidden">
 
         {/* card */}
-       <CardCarrousel img={pdt1} tag='loveseat sofa' price='199.00' slashP={400.00}  />
-       <CardCarrousel img={pdt2} tag='table lamp' price='24.99' slashP={0} />
-       <CardCarrousel img={pdt3} tag='beige table lamp' price='25.00' slashP={0}/>
-       <CardCarrousel img={pdt4} tag='bamboo basket' price='195.00' slashP={0}/>
-       <CardCarrousel img={pdt5} tag='itchen lamp' price='30.00' slashP={0}/>
+       <CardCarrousel img={pdt1} tag='loveseat sofa' price='199.00' country="Tanzania" slashP={400.00}  />
+       <CardCarrousel img={pdt2} tag='table lamp' price='24.99' country="Japan" slashP={0} />
+       <CardCarrousel img={pdt3} tag='beige table lamp' price='25.00' country="Mexico" slashP={0}/>
+       <CardCarrousel img={pdt4} tag='bamboo basket' price='195.00' country="Korea" slashP={0}/>
+       <CardCarrousel img={pdt5} tag='itchen lamp' price='30.00' country="France" slashP={0}/>
        </div>
       
     </section>
