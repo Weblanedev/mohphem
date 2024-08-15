@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 import rating from "../../assets/Icons/Star Icon.png";
 import wishIcon from "../../assets/Icons/wish-gray.png";
 import { useNavigate } from "react-router-dom";
-import { NewItem } from "../NewItem";
+
 interface Props {
   img: string;
   tag: string;

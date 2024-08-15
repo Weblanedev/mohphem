@@ -1,6 +1,6 @@
 import { Badge } from "./Badge";
 import { NavLink } from "react-router-dom";
-import NotificationBar from "./NotificationBar";
+// import NotificationBar from "./NotificationBar";
 import { FC, useEffect, useState } from "react";
 import { CartSideBar } from "./cards/CartSideBar";
 // import Icon from "../assets/Icons/arrow-right.png";

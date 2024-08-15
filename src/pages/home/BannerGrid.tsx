@@ -1,6 +1,4 @@
 import pt1 from "../../assets/products/product-1.png";
-import pt2 from "../../assets/products/product-6.png";
-import pt3 from "../../assets/products/product-5.png";
 import { FC } from "react";
 import { ButtonDark } from "../../components/Elements";
 import { useNavigate   } from "react-router-dom";

@@ -3,7 +3,6 @@ import pdt1 from '../assets/products/product-2.png'
 import pdt2 from '../assets/products/product-7.png'
 import pdt3 from '../assets/products/product-8.png'
 import pdt4 from '../assets/products/product-10.png'
-import pdt5 from '../assets/products/product-9.png'
 import { FC } from "react"
 
 interface ICarrouselTagProp {
