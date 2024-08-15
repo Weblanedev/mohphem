@@ -13,13 +13,13 @@ export const SaleBanner = () => {
       {/* content */}
       <div className="w-full sm:w-1/2 flex items-center  px-8 sm:px-0 sm:pl-16 py-14 sm:py-0">
         <div className="w-[452px] flex flex-col items-start gap-4">
-          <p className="text-hairline1 font-bold uppercase text-blue">Export discounts up to 30% off</p>
+          {/* <p className="text-hairline1 font-bold uppercase text-blue">Export discounts up to 30% off</p> */}
           <h4 className="text-h4 font-poppins"><br />
-            New lower prices!
+            Creating beautiful and sustainable outdoor spaces
           </h4>
-          <p className="text-body1Reg">Unlock new markets, multiply your revenue! Export your products and watch your business soar to new heights</p>
+          <p className="text-body1Reg">Ready to transform your space? Reach out to Mohphem today. Let’s bring your vision to life.</p>
           <Link to="/contact">
-            <ButtonDark text='Export now' />
+            <ButtonDark text='Contact Us' />
           </Link>
         </div>
       </div>

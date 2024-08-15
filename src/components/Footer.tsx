@@ -15,7 +15,7 @@ export const Footer = () => {
           {/* brand name */}
           <div className=" sm:w-1/3 flex flex-col sm:flex-row gap-5 items-center">
             <div className="text-[24px] font-medium font-poppins">
-              BroadStack<span className="text-gray-400">.</span>
+            Mohphem<span className="text-gray-400">.</span>
             </div>
             <hr className='w-5 sm:hidden opacity-40' />
             <span className='hidden sm:block opacity-40'>|</span>

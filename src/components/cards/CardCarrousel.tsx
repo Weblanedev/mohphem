@@ -55,7 +55,7 @@ export const CardCarrousel: FC<Props> = ({
         {/* hover contents */}
         {/* ------------------------ */}
         {/* new */}
-       <NewItem posT="top-3" posL="left-4" />
+       {/* <NewItem posT="top-3" posL="left-4" /> */}
 
         {/* wish icon */}
         <div
@@ -77,7 +77,7 @@ export const CardCarrousel: FC<Props> = ({
             active ? "flex" : "hidden"
           } justify-center items-center rounded-lg bg-gray-700 text-white text-btnSm `}
         >
-          Order from {country}
+          Order {country}
         </button>
       </div>
 

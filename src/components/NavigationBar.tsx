@@ -26,15 +26,14 @@ const NavigationBar: FC<IProp> = ({ open, cartBar }) => {
 
   return (
     <div
-      className={`sticky top-0 z-10 ${
-        scrollActive ? "shadow-md" : "shadow-none"
-      }`}
+      className={`sticky top-0 z-10 ${scrollActive ? "shadow-md" : "shadow-none"
+        }`}
     >
-      <NotificationBar />
+      {/* <NotificationBar /> */}
 
       <nav className="h-[60px] flex justify-between items-center  px-8 sm:px-40 bg-white overflow-hidden">
         <div className="text-[24px] font-bold text-gray-500 font-poppins ">
-          BroadStack<span className="text-gray-400">.</span>
+        Mohphem<span className="text-gray-400">.</span>
         </div>
 
         {/* cart sidebar */}
@@ -58,10 +57,10 @@ const NavigationBar: FC<IProp> = ({ open, cartBar }) => {
           <NavLink to="/">
             <span className={menuClass}>Home</span>
           </NavLink>
-          {/* <NavLink to="/shop">
-            <span className={menuClass}>Shop</span>
+          <NavLink to="/about">
+            <span className={menuClass}>About</span>
           </NavLink>
-          <NavLink to="/product">
+          {/*   <NavLink to="/product">
             <span className={menuClass}>Product</span>
           </NavLink> */}
           <NavLink to="/contact">
